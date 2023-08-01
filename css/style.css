@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+body{
+    box-sizing: border-box;
+    font-family: Manrope;
+    background-color: white;
+}
 
 @font-face {
     font-family: Manrope;
