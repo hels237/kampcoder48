@@ -6,6 +6,7 @@ body{
     box-sizing: border-box;
     font-family: Manrope;
     background-color: white;
+    height: 100%;
 }
 
 @font-face {
@@ -16,7 +17,96 @@ body{
     font-family: Monserrat;
     src: url(/fonts/Montserrat-VariableFont_wght.ttf);
 }
+/****************************************header*********************************/
+header{
+   background-color: #2e1869;
+   font-family: Manrope;
+   font-size: 1.1em;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   
+   
+} 
 
-h1{
-    font-family: Monserrat;
+
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+   
+   
+    
 }
+header div img{
+    height: 40px;
+    width: 45px;
+    object-fit: cover;
+    
+}
+
+/*****************************************banniere**************************/
+
+
+#banniere{
+    background-color: #3f4a68;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar{
+    width: 100%;
+    max-width: 450px;
+    background-color: rgba(255,255,255, 0.2);/* couleur de font*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+   
+}
+
+.search-bar input{
+  
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 5px;
+    font-size: 17px;
+    color: #cac7ff;
+    
+
+
+}
+
+.search-bar img{
+    width: 25px;
+}
+.search-bar button{
+
+    border: 0;
+    background: transparent;
+    background-color: #cac7ff;
+    border-radius: 48%;
+    height: 25px;
+    width: 26px;
+    cursor:pointer;
+   
+}
+::placeholder{
+    color:#cac7ff
+}
+
+
+
+
+
+
+
+
+
+/**********************************************main****************************/
