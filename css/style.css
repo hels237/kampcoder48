@@ -110,37 +110,37 @@ main{
     
 }
 
+main h1{
+    font-family: Monserrat;
+    color: #2e1869 ;
+    padding: 25px;
+}
+
 /***************style of the  section1***************/
+
+
 section{
     display: flex;
     display: grid;
    grid-template-columns: 18% 18% 18% 18%;
-    border: 1px solid black;
+    
    justify-content: center;
    gap:50px;
-    padding: 20px;
+    padding: 30px;
  
-
-
-   
-    
- 
-   
-  
    
 }
 
 /************ style of one element*****************/
 
 section .element{
-    border: 1px solid black;
+    
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.30) 0px 50px 100px -20px, 
+                rgba(0, 0, 0, 0.4) 0px 30px 60px -30px;
     
-
    
-
-    
 }
 
 section .element img{
@@ -149,7 +149,15 @@ section .element img{
     border-top-right-radius: 10px;
     
 }
+section div p{
+   text-align: justify;
+   padding-bottom: 7px;
+   padding-right: 3px;
+}
 
+section div p,h3{
+    padding-left: 3px;
+}
 
 
 
