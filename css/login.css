@@ -38,7 +38,10 @@ body{
    
 
 }
-
+form{
+    border: 1px solid blue;
+    height: 60%;
+}
 
 form input{
 
