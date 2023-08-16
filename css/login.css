@@ -32,7 +32,8 @@ body{
 /*************************************************main***************************************/
 h1{
     text-align: center;
-    padding: 1.6rem;
+    padding: 1.5rem;
+    margin-top: 1rem;
 }
 .loginForm{
    
@@ -43,7 +44,11 @@ h1{
     border: 2px solid #2e1869;
     border-top: 7px solid #2e1869;
     color: #2e1869;
-    border-radius: 15px;background-color: white;
+    border-radius: 15px;
+   background-color: white;
+    border-left: transparent;
+    border-bottom: transparent;
+    border-right: transparent;
     
    
 
@@ -58,6 +63,7 @@ form{
     align-items: center;
     margin: auto;
     margin-bottom: 2rem;
+
     
 }
 
@@ -79,7 +85,7 @@ form input{
 
 form label {
    display: block;
-   height: 4vh;
+   height: 4.2vh;
    font-size: 1.1em;
 }
 
@@ -90,7 +96,7 @@ form #first{
 }
 
 form #second{
-    margin-bottom: 3.5rem;
+    margin-bottom: 3.4rem;
   
   
 }
@@ -104,17 +110,48 @@ form button{
     font-size: 1.1em;
 }
 
-img{
-    width: 5%;
+a img{
+    
+    width: 17%;
+    height: 17%;
+    border-radius:40%;
+    object-fit: contain;
+    background-color:black;
+    padding: 5px;
+}
+
+.blokImage{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   padding: 3px;
+}
+
+
+.socialNetwork{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
 
 a {
     color: #2e1869;
     text-align: center;
     text-decoration: none;
+   
 }
-a:hover{
-    text-decoration: underline;
+.icon1:hover:hover{
+  background: #2ac5fd;
+}
+
+.icon2:hover{
+    background: #007ebb;
+}
+.icon3:hover{
+    background: #3c5a98;
 }
 
 
