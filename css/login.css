@@ -110,48 +110,31 @@ form button{
     font-size: 1.1em;
 }
 
-a img{
-    
-    width: 17%;
-    height: 17%;
-    border-radius:40%;
-    object-fit: contain;
-    background-color:black;
-    padding: 5px;
-}
 
-.blokImage{
-   display: flex; 
-   justify-content: center;
-   align-items: center;
-   padding: 3px;
-}
-
-
-.socialNetwork{
-   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-}
 
 a {
     color: #2e1869;
     text-align: center;
-    text-decoration: none;
-   
-}
-.icon1:hover:hover{
-  background: #2ac5fd;
+    text-decoration: none;  
 }
 
-.icon2:hover{
-    background: #007ebb;
+a:hover{
+    text-decoration: underline;
 }
-.icon3:hover{
-    background: #3c5a98;
+
+
+.socialNetwork{
+
+    height: 15%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+svg{
+    font-size: 1.6em;
 }
 
 
