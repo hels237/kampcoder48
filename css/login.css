@@ -33,30 +33,28 @@ body{
 h1{
     text-align: center;
     padding: 1.5rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem; margin-bottom: 10px;
 }
+
 .loginForm{
    
     width: 30%;
-    height: 70vh;
+    padding: 40px;
     margin: auto;
     margin-top: 6rem;
     border: 2px solid #2e1869;
-    border-top: 7px solid #2e1869;
     color: #2e1869;
     border-radius: 15px;
    background-color: white;
-    border-left: transparent;
-    border-bottom: transparent;
-    border-right: transparent;
-    
-   
+    border: none;
+    border-top: 7px solid #2e1869;  
 
 }
 form{
    
-    width: 60%;
-    height: 60%;
+    /* width: 60%;
+    height: 60%; */
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,7 +67,7 @@ form{
 
 form input{
   
-    display: block;
+    /* display: block; */
     width: 100%;
     height: 2.6rem;
     background-color:  #eaebee;
@@ -84,9 +82,12 @@ form input{
 
 
 form label {
-   display: block;
-   height: 4.2vh;
+   /* display: block; */
+   /* height: 4.2vh; */
+
+
    font-size: 1.1em;
+   margin-bottom: 15px;
 }
 
 
@@ -125,6 +126,7 @@ a {
     text-align: center;
     text-decoration: none;  
     font-size: 1.1em;
+    padding: 8px;
     
 }
 
