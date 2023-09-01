@@ -42,16 +42,40 @@ header nav a{
 
 /**********************************dropDownList*********************************/
 
+ul{
+    list-style: none;
+}
 
-nav a{
-
+ul li{
+    border: 1px solid;
     display: inline-block;
-    border: 1px solid white;
+    position: relative;
+}
+
+
+ul li a{
+    display: block;
+    padding: 10px 15px;  
+}
+
+.dropDownList li{
+    display: block;
 
 }
-.innerLink{
-   display: block;
-   width: 100%;
+
+.dropDownList{
+    width: 100%;
+   position: absolute;
+   display: none;
+}
+
+ul li a:hover{
+
+    background-color: #3f4a68;
+
+}
+ul li:hover ul.dropDownList{
+    display: block;
 }
 
 
