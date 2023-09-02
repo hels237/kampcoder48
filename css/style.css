@@ -47,7 +47,6 @@ ul{
 }
 
 ul li{
-    border: 1px solid;
     display: inline-block;
     position: relative;
 }
@@ -65,6 +64,7 @@ ul li a{
 
 .dropDownList{
     width: 100%;
+    background-color: #2e1869;
    position: absolute;
    display: none;
 }
