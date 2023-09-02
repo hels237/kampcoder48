@@ -53,8 +53,10 @@ ul li{
 
 
 ul li a{
+
     display: block;
     padding: 10px 15px;  
+    text-align: center;
 }
 
 .dropDownList li{
@@ -64,9 +66,10 @@ ul li a{
 
 .dropDownList{
     width: 100%;
+    position: absolute;
+    display: none;
     background-color: #2e1869;
-   position: absolute;
-   display: none;
+ 
 }
 
 ul li a:hover{
