@@ -173,28 +173,34 @@ main h1{
 /***************style of the  section1***************/
 
 
-section{
-    display: flex;
-    display: grid;
-   grid-template-columns: 18% 18% 18% 18%;
-    
-   justify-content: center;
-   gap:50px;
-    padding: 30px;
- 
+
+.sectionContainer {
    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 35px; 
+}
+
+.sectionContainer{
+    width: 80%;
+    margin: auto;
 }
 
 /************ style of one element*****************/
+section{
+    padding-bottom: 2rem;
+}
 
 section .element{
     
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     box-shadow: rgba(50, 50, 93, 0.30) 0px 50px 100px -20px, 
-                rgba(0, 0, 0, 0.4) 0px 30px 60px -30px;
-    
-   
+                rgba(0, 0, 0, 0.4) 0px 30px 60px -30px;  
+}
+
+section .element{
+    width: 100%;
 }
 
 section .element img{
@@ -217,12 +223,20 @@ section div p,h3{
 
 
 
+/*******************media***************/
+
+@media(max-width:996px){
+
+    .sectionContainer{
+
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+}
 
 
-
-
-
-
+/*******************media***************/
 
 /*************************************************************************footer**********************************************/
 footer{
