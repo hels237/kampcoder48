@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-family: Manrope;
+    background-color:   #2e1869;;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url(/fonts/Manrope-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Monserrat;
+    src: url(/fonts/Montserrat-VariableFont_wght.ttf);
+}
+/******************************************************** header*****************************************/
+header{
+    display: flex;
+} 
+
+
+
+/******************************************************************************************/
+
+main{
+    background-color: white;
+    height: 30vh;
+}
