@@ -22,6 +22,7 @@ body{
 /******************************************************** header*****************************************/
 header{
     display: flex;
+    
 } 
 
 
@@ -31,4 +32,5 @@ header{
 main{
     background-color: white;
     height: 30vh;
+    color: black;
 }
